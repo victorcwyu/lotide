@@ -5,4 +5,7 @@ describe("#middle", () => {
   it("returns [7, 6] for [1, 2, 7, 6, 4, 5]", () => {
     assert.deepEqual(middle([1, 2, 7, 6, 4, 5]), [7, 6]);
   });
+  it("returns [7] for [1, 2, 7, 6, 4]", () => {
+    assert.deepEqual(middle([1, 2, 7, 6, 4]), [7]);
+  });
 });
