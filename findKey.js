@@ -20,15 +20,21 @@ const findKey = function(obj,cb) {
   for (let key of objKeys) {
     if (cb(obj[key])) {
       return key;
-      break;
     };
   };
 };
 
-console.log(findKey(restos,x => x.stars === 2));
 
 
-assertEqual((findKey(restos, x => x.stars === 2)), "noma");
+
+
+
+
+
+// console.log(findKey(restos,x => x.stars === 2));
+
+
+// assertEqual((findKey(restos, x => x.stars === 2)), "noma");
 
 
 //second option, possibly better
