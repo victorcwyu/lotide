@@ -30,6 +30,6 @@ const letterPositions = function (str) {
   return result;
 };
 
-console.log(letterPositions("lighthouse in the house"));
+// console.log(letterPositions("lighthouse in the house"));
 
-assertArraysEqual(letterPositions("hello").e, [1]);
+// assertArraysEqual(letterPositions("hello").e, [1]);
