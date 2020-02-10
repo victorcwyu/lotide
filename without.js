@@ -15,6 +15,8 @@ const assertArraysEqual = function(arr1, arr2) {
 };
 
 const without = function(source,itemsToRemove) {
-  const resort = source.filter((source) => !itemsToRemove.includes(source));
+  const resort = source.filter((source) => itemsToRemove.includes(source));
   return resort;
 };
+
+// console.log(without([1, 2, 3], [3, 4, 5]));
