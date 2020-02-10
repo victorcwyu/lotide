@@ -15,7 +15,7 @@ const assertArraysEqual = function (arr1, arr2) {
 };
 
 
-const data1 = [1, 2, 5, 7, 2, -1, 2, 4, 5];
+// const data1 = [1, 2, 5, 7, 2, -1, 2, 4, 5];
 // const data2 = ["I've", "been", "to", "Hollywood", ",", "I've", "been", "to", "Redwood"];
 
 const takeUntil = function (array, callback) {
@@ -33,10 +33,10 @@ const takeUntil = function (array, callback) {
 // console.log(takeUntil(data1,x => x < 0));
 
 
-const results1 = takeUntil(data1, x => x < 0);
-console.log(results1);
+// const results1 = takeUntil(data1, x => x < 0);
+// console.log(results1);
 
-(assertArraysEqual((takeUntil(data1, x => x < 0)), [1, 2, 5, 7, 2]));
+// (assertArraysEqual((takeUntil(data1, x => x < 0)), [1, 2, 5, 7, 2]));
 
 
 
